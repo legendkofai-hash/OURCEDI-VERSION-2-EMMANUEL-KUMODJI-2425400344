@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const hamburger = document.querySelector(".hamburger");
+    const hamburger = document.querySelector(".toggle-btn");
     const navMenu = document.querySelector(".navigation");
     const navMenu1 = document.querySelector(".navigation1");
 
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Toggle mobile nav and overlay (single DOMContentLoaded, no nesting)
     (function () {
-        var btn = document.querySelector('.hamburger');
+        var btn = document.querySelector('.toggle-btn');
         var navs = document.querySelectorAll('.navigation, .navigation1');
         if (!btn || navs.length === 0) return; // nothing to do if no nav/button
 
