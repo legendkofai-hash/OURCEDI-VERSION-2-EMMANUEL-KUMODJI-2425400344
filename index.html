@@ -4,99 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="OurCedi.css">
-      <title>OurCedi</title>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-     <link rel="icon" type="image/x-icon" href="images/urCedi logo image.png">
+    <title>OurCedi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="urCedi logo image.png">
 </head>
-<body style="margin: 0;">
- <div id="headercontainer">
+<body>
+    <div id="headercontainer">
+        <nav id="navbar">
+            <section class="brand-wrap">
+                <a href="index.html"><img src="OURCEDI LOGO2.png" class="logo" alt="OurCedi Logo"></a>
+                <video src="3986897009-preview.mp4" autoplay loop muted width="100" height="100" id="l-v"></video>
+            </section>
 
-      <!--Navigation Bar-->
+            <button class="toggle-btn" aria-label="Open navigation">☰ Menu</button>
 
-    <nav id="navbar"> 
-      <section style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center;">
-         <a href="index.html"><img src="images/OURCEDI LOGO2.png" class="logo" alt="OurCedi Logo" style="width: 200px; height: 100px;"></a>
-        <video src="images/3986897009-preview.mp4" autoplay loop muted width="100px" height="100px" id="l-v" tooltip="Exhibiting the Rich Heritage of Ghana"></video>
-      </section>
+            <ul class="navigation nav-main">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="cedi.html">Cedi</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
 
-      <!-- Button to toggle nav -->
-        <button class="toggle-btn">☰ Menu</button>
-       
-        <ul class="navigation" style="list-style: none; display: flex; flex-wrap: wrap; gap: 30px; font-size: 16px; justify-content: center; align-items: center; margin: auto;">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="newsletter.html">Newsletter</a></li>
-            <li><a href="cedi.html">Cedi</a></li>
-            <li><a href="aboutus.html" target="_self">About Us</a></li>
-        </ul>
-
-
-        <ul class="navigation1" style="display: flex; gap: 5px; flex-wrap: wrap; list-style: none; padding-left: 2px; position: relative; left: 40px;">
-           <li><a href="contactus.html">Contact</a></li>
-           <li><a href="signup.html" style="color: #ff0808; border: 2px solid red; background-color: red; padding: 5px 10px; border-radius: 5px; border-style: none; color: #f8f8f8;">Signup</a></li>
-        </ul>
-         
-    </nav>
-   </div>
-   <br><br>
-
-        <!--Hero Section 0-->
-   <div id="home" style="text-align: center; font-family: 'Poppins', sans-serif; background-image: url(images/ghana.jpg);max-width: 100vw; height: auto; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  position: static; top: 0px; color: white; text-shadow: 2px 2px 4px #000000; color: #FFD100; margin: auto; justify-content: center; align-items: center;">
-<br><br><br><br>
-
-    <section style="display: grid; grid-template-rows: auto auto auto; gap: 20px; justify-content: center; align-items: center;">
-      <h1 id="animate">WELCOME TO GHANA</h1>
-      <h3>OUR HERITAGE OF CEDI</h3>
-      <h1 style="max-width: 700px; height: max-content; box-shadow: 0px 0px 5px 2px #FFD100; padding: 50px;">The Cedi is not just a currency but a culture and history of Ghana </h1>
-    </section>
-
-    <br><br><br><br><br>
-
-    <!--hero section 1-->
-
-    <section  class="hero"  style="display: flex; flex-wrap: wrap;  justify-content: center; align-items: center; background: radial-gradient(circle, hsla(0, 0%, 4%, 1) 76%, hsla(51, 100%, 49%, 1) 100%); padding: 20px;  max-width: 100%;">
-
-
-      <img src="images/Ghana_Cedi_banknotes.jpg" alt="ghana cedi banknotes" style="max-width: 100%; height: 500px; box-shadow: 5px 5px 15px #000000;">
-
-      <article style="padding: 50px; padding-block-start: 10%;">
-
-        <h2>The Cedi: More Than Just a Currency</h2>
-
-        <p style="max-width: 500px; margin: auto; text-align: center; justify-content: center; align-items: center; font-size: 25px;">The Cedi represents the rich history and culture of Ghana, making it more than just a currency. On the <strong>link</strong> below, we will explore its significance and impact on the Ghanaian people and the history of the cedi as it has survived the test of time.</p>
-        <br><br><br>
-
-
-        <button style="padding: 10px; background-color: #FFD100; border: none; border-radius: 5px; cursor: pointer; color: #111111; font-family: 'Poppins', sans-serif;" id="learnMoreBtn" onclick="learnMoreBtn()">Learn More</button>
-      </article>
-    </section>
-   </div>
-   
-   <div class="sm-flex" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; justify-content: center; align-items: center; padding: 50px; max-width: 100%; background-color: #f8f8f8; margin: auto; position: relative; top: 0px;">
-   
-    <h2 style="margin: auto; text-align: center; font-weight: 600; font-family: 'Saira', sans-serif;">UPHOLD YOUR IMAGE</h2>
-    <br><br><br><br><br><br><br><br>
-
-    <p class="p-flt-lft" style="width: 70%; justify-items: left;  margin: auto; font-family: 'Saira', sans-serif; text-align: left; padding: 10px;  line-height: 1.7;">As a proud Ghanaian, your image is a reflection of our rich heritage. Embrace the values and traditions that make us unique.Leading one another with Godliness, kindness, and love is the key to upholding our image. By embodying these qualities, we can create a positive impact on our communities and inspire others to do the same. Let's work together to uphold our image and build a brighter future for Ghana.
-    </p>
-
-
-    <video src="images/3755267307-preview.mp4" autoplay loop muted width="100%" height="auto">Exhibiting the Rich Heritage of Ghana</video>
-   </div>
-
-   <br><br><br><br><br><br><br><br>
-   <footer>
-    <div style="background-color: #111111; color: #FFD100; text-align: center; padding: 20px; font-family: 'Poppins', sans-serif;">
-      <p>&copy; 2026 OurCedi. All rights reserved.</p>
-      <h2>Our Heritage, Our Future </h2>
-      <p>Preserving the legacy of the Cedi for generations to come.</p>
+            <ul class="navigation1 nav-cta">
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a class="signup-btn" href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
     </div>
-   </footer>
-   <script>
-    function learnMoreBtn() {
-      window.location.href = "cedi.html";
-    }
-</script>
-<script src="cedi.js"></script>
+
+    <main>
+        <section id="home" class="hero-banner">
+            <div class="hero-overlay">
+                <h1 id="animate">WELCOME TO GHANA</h1>
+                <h3>OUR HERITAGE OF CEDI</h3>
+                <p class="hero-tagline">The Cedi is not just a currency but a culture and history of Ghana.</p>
+                <div class="hero-actions">
+                    <button id="learnMoreBtn" onclick="learnMoreBtn()">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero feature-panel">
+            <img src="Ghana_Cedi_banknotes.jpg" alt="Ghana cedi banknotes" class="feature-image">
+            <article class="feature-copy">
+                <h2>The Cedi: More Than Just a Currency</h2>
+                <p>The Cedi represents the rich history and culture of Ghana, making it more than just a currency. Explore its significance, impact, and how it has survived the test of time.</p>
+            </article>
+        </section>
+
+        <section class="sm-flex spotlight-section">
+            <h2>UPHOLD YOUR IMAGE</h2>
+            <p class="p-flt-lft">As a proud Ghanaian, your image reflects our rich heritage. Embrace the values and traditions that make us unique. By leading with godliness, kindness, and love, we can build stronger communities and inspire a brighter future for Ghana.</p>
+            <video src="3755267307-preview.mp4" autoplay loop muted width="100%" height="auto"></video>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrap">
+            <p>&copy; 2026 OurCedi. All rights reserved.</p>
+            <h2>Our Heritage, Our Future</h2>
+            <p>Preserving the legacy of the Cedi for generations to come.</p>
+        </div>
+    </footer>
+
+    <script>
+        function learnMoreBtn() {
+            window.location.href = "cedi.html";
+        }
+    </script>
+    <script src="cedi.js"></script>
 </body>
 </html>
